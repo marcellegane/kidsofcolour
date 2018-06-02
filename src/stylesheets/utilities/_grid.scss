@@ -1,7 +1,7 @@
 $gtr       : rem(30);
 $gtr-half  : $gtr / 2;
 $cols      : 12;
-$max-width : rem(1440);
+$max-width : rem(1310);
 
 @mixin flex-grid($direction: row, $align: flex-start, $justify: flex-start, $gutters: true) {
   display: flex;

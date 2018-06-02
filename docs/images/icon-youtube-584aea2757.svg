@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="43px" height="30px" viewBox="0 0 43 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-youtube</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-3" transform="translate(-987.000000, -68.000000)" fill="#222321">
+            <g id="Stacked-Group">
+                <g id="Section-1">
+                    <g id="Stacked-Group" transform="translate(95.000000, 60.000000)">
+                        <g id="header" transform="translate(196.000000, 0.000000)">
+                            <g id="social" transform="translate(696.000000, 8.000000)">
+                                <g id="Stacked-Group">
+                                    <path d="M42.1013977,4.68459677 C41.6068977,2.84056452 40.1500284,1.38846774 38.2998068,0.895645161 C34.9465398,0 21.5,0 21.5,0 C21.5,0 8.05346023,0 4.70019318,0.895645161 C2.85021591,1.38846774 1.39310227,2.84056452 0.898602273,4.68459677 C0,8.02669355 0,15 0,15 C0,15 0,21.9730645 0.898602273,25.3156452 C1.39310227,27.1594355 2.85021591,28.6115323 4.70019318,29.1045968 C8.05346023,30 21.5,30 21.5,30 C21.5,30 34.9465398,30 38.2998068,29.1045968 C40.1500284,28.6115323 41.6068977,27.1594355 42.1013977,25.3156452 C43,21.9730645 43,15 43,15 C43,15 43,7.02669355 42.1013977,3.68459677 M28.3409091,15.0002419 L17.1022727,8.66879032 L17.1022727,21.3312097 L28.3409091,15.0002419 Z" id="icon-youtube"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -4,3 +4,15 @@ body {
   font-family: $ff-primary;
   color: $body-text;
 }
+
+@mixin body-large() {
+  font-size: rem(34);
+  line-height: (42/34);
+  font-weight: $fw-light;
+}
+
+@mixin body() {
+  font-size: rem(22);
+  line-height: (30/22);
+  font-weight: $fw-light;
+}
