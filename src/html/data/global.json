@@ -1,0 +1,54 @@
+{
+  "title": "Kids of Colour",
+
+  "intro": {
+    "text": "A YouTube platform for kids of colour to explore their experiences of race, identity and culture in modern Britain",
+    "cta": "Visit our channel"
+  },
+
+  "about": {
+    "title1": "Why",
+    "text1": "We work to inform society on the diverse experiences belonging to young people of colour in Britain, humanizing them and challenging the narrative that makes them either one-dimensional or non-existent. We want to build a picture of how young people of colour are affected by race, identity and culture, encouraging others to deepen their understanding of a community whom many ‘assume’ they know.",
+    "title2": "Who",
+    "text2": "Kids of Colour is led by Roxy Legane, who has worked in the youth and charity sector since 2013. She set up Kids of Colour in February 2018, tired of society’s ways of representing young people of colour homogenously; rarely sharing their individual experiences, interests or views."
+  },
+
+  "quotes": [
+    {
+      "text": "Participating in Kids of Colour has empowered me and allowed me to have that difficult dialogue around race, culture and identity. It has also provided me with a channel to get my voice heard and my views around race heard by people from different communities.",
+      "footer": "Hasaan, 18"
+    },
+    {
+      "text": "Kids of Colour really gave me a platform to share my views of race and also helped me to have a deeper understanding of who I am, and where I come from.",
+      "footer": "Taesia, 14 "
+    },
+    {
+      "text": "Taking part in the Kids of Colour project has allowed me to feel that my voice and my experiences being a young person of colour within society are valid; that I am entitled to speak up against injustices I may face, and that I am being heard. It has been a privilege to be part of it, and I really hope it is recognised for the impact it has had on the young people who have participated.",
+      "footer": "Mea, 17 "
+    },
+    {
+      "text": "Working with Kids of Colour has given me hope.",
+      "footer": "Acediiia, 16"
+    },
+    {
+      "text": "Being a part of this project has shown me I’m not alone, that my experience as a black Muslim woman is important, and that being treated as an equal shouldn’t be a privilege, but a right.",
+      "footer": "Fowsia, 24"
+    }
+  ],
+
+  "contact": {
+    "title": "Get Involved",
+    "subtitle1": "Contribute",
+    "text1": "If you are a young person of colour, aged 24 and under, we would love to hear from you. You do not have to have done this kind of thing before, we will help you explore what you want to share. All experiences are valuable, and your insights are important.",
+    "subtitle2": "Support",
+    "text2": "We are always looking for ways to progress our project, or partner with interesting people and organisations out there! If you would like to offer your expertise or support our work, please get in touch.",
+    "btnHref": "mailto:kidsofcolour@hotmail.com",
+    "btnText": "kidsofcolour@hotmail.com"
+  },
+
+  "social": {
+    "youtube": "https://www.youtube.com/channel/UCcCZOh8AusathhNJUjIXHNQ",
+    "twitter": "https://twitter.com/kidsofcolourhq",
+    "instagram": "https://www.instagram.com/kidsofcolourhq/"
+  }
+}

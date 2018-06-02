@@ -1,0 +1,14 @@
+{#
+  Nunjucks Templating!
+  Homepage: https://mozilla.github.io/nunjucks/
+  Docs: https://mozilla.github.io/nunjucks/api.html
+#}
+
+{% extends 'layouts/application.html' %}
+
+{% block content %}
+  {% include 'layouts/header.html' %}
+  {% include 'layouts/intro.html' %}
+  {% include 'layouts/about.html' %}
+  {% include 'layouts/get-involved.html' %}
+{% endblock %}
