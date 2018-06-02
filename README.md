@@ -1,0 +1,1 @@
+Static site for Kids of Color.
