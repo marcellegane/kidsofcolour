@@ -1,3 +1,28 @@
+.contact__grid {
+  @include flex-grid($justify: center);
+}
+
+.contact__col {
+  @include flow(1);
+  @include flex-span(12);
+
+  @include media($medium-screen-up) {
+    @include flex-span(8);
+  }
+}
+
+.contact__title {
+  @include h2;
+}
+
+.contact__subtitle {
+  @include h3;
+}
+
+.contact__text {
+  @include body;
+}
+
 .contact__btn {
   @include media($medium-screen-down) {
     font-size: rem(15);

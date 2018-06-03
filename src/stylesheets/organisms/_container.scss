@@ -5,7 +5,7 @@
   padding-left: $gtr-half;
   padding-right: $gtr-half;
 
-  @include media($large-screen-up) {
+  @include media($medium-screen-up) {
     padding-left: $gtr;
     padding-right: $gtr;
   }

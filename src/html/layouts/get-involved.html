@@ -1,10 +1,14 @@
 <section id="get-involved" class="contact row row--yellow">
   <div class="container">
-    <h2 class="contact__title">{{ contact.title }}</h2>
-    <h3 class="contact__subtitle">{{ contact.subtitle1 }}</h3>
-    <p class="contact__text">{{ contact.text1 }}</p>
-    <h3 class="contact__subtitle">{{ contact.subtitle2 }}</h3>
-    <p class="contact__text">{{ contact.text2 }}</p>
-    <a href="{{ contact.btnHref }}" class="contact__btn btn btn--white">{{ contact.btnText }}</a>
+    <div class="contact__grid">
+      <div class="contact__col">
+        <h2 class="contact__title">{{ contact.title }}</h2>
+        <h3 class="contact__subtitle">{{ contact.subtitle1 }}</h3>
+        <p class="contact__text">{{ contact.text1 }}</p>
+        <h3 class="contact__subtitle">{{ contact.subtitle2 }}</h3>
+        <p class="contact__text">{{ contact.text2 }}</p>
+        <a href="{{ contact.btnHref }}" class="contact__btn btn btn--black">{{ contact.btnText }}</a>
+      </div>
+    </div>
   </div>
 </section>

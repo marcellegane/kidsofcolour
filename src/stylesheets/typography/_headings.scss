@@ -4,14 +4,23 @@ h1, h2, h3, h4, h5, h6 {
 
 @mixin h2() {
   font-family: $ff-secondary;
-  font-size: rem(64);
+  font-size: rem(38);
   line-height: (80/64);
+
+  @include media($medium-screen-up) {
+    font-size: rem(48);
+  }
+
+  @include media($large-screen-up) {
+    font-size: rem(64);
+  }
 }
 
 @mixin h3() {
   font-family: $ff-secondary;
   font-size: rem(30);
   line-height: (53/42);
+  text-transform: lowercase;
 
   @include media($medium-screen-up) {
     font-size: rem(42);

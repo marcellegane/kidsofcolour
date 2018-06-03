@@ -19,6 +19,10 @@
 
   + #{&} {
     @include media($medium-screen-up) {
+      padding-left: $sp-s;
+    }
+
+    @include media($large-screen-up) {
       padding-left: $sp-s * 1.5;
     }
 
@@ -36,6 +40,10 @@
 
       @include media($medium-screen-up) {
         display: block;
+        left: $sp-s * 0.5;
+      }
+
+      @include media($large-screen-up) {
         left: $sp-s * 0.75;
       }
     }
