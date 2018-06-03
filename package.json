@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "blendid": "^4.4.3",
+    "gsap": "^2.0.1",
     "jquery": "^3.3.1",
     "owl.carousel": "^2.3.4"
   }

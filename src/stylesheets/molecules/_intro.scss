@@ -1,6 +1,6 @@
 .intro {
   text-align: center;
-  padding-bottom: $sp-s;
+  padding-bottom: $sp-s * 1.2;
 
   @include media($medium-screen-up) {
     padding-bottom: $sp-m;
@@ -23,7 +23,7 @@
 
 .intro__text {
   max-width: 24em;
-  margin-top: $sp-s / 2;
+  margin-top: $sp-s / 1.2;
   margin-left: auto;
   margin-right: auto;
   @include body-large;
@@ -34,7 +34,7 @@
 }
 
 .intro__btn {
-  margin-top: $sp-s / 2;
+  margin-top: $sp-s / 1.2;
 
   @include media($medium-screen-up) {
     margin-top: $sp-s;
