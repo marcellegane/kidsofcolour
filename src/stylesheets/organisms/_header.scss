@@ -1,3 +1,7 @@
 .header {
-  padding-top: $sp-s * 1.5;
+  padding-top: $sp-s * 0.5;
+
+  @include media($medium-screen-up) {
+    padding-top: $sp-s * 1.5;
+  }
 }

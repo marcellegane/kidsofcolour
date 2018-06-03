@@ -6,9 +6,13 @@ body {
 }
 
 @mixin body-large() {
-  font-size: rem(34);
+  font-size: rem(24);
   line-height: (42/34);
   font-weight: $fw-light;
+
+  @include media($medium-screen-up) {
+    font-size: rem(34);
+  }
 }
 
 @mixin body() {

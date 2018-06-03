@@ -1,0 +1,31 @@
+.logo {
+  position: relative;
+  width: 50%;
+  max-width: rem(200);
+  overflow: hidden;
+  background: {
+    image: url('../images/logo.png');
+    repeat: no-repeat;
+    position: center;
+    size: contain;
+  }
+
+  @include media($medium-screen-up) {
+    width: 24%;
+    max-width: rem(350);
+  }
+
+  &:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+  }
+}
+
+.logo__text {
+  position: absolute;
+  top: 100%;
+  right: 100%;
+}
