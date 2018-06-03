@@ -12,6 +12,8 @@
 @import "typography/typography";
 @import "typography/headings";
 
+@import "vendor/owl-carousel";
+
 @import "atoms/btn";
 @import "atoms/logo";
 
@@ -23,6 +25,7 @@
 @import "molecules/about";
 @import "molecules/quote";
 @import "molecules/contact";
+@import "molecules/carousel";
 
 @import "organisms/header";
 @import "organisms/container";

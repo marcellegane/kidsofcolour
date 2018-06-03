@@ -1,3 +1,2 @@
-import './modules'
-
-console.log(`app.js has loaded!`)
+import { carousel } from './modules/carousel';
+carousel.init();
