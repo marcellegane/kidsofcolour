@@ -16,7 +16,11 @@ body {
 }
 
 @mixin body() {
-  font-size: rem(22);
+  font-size: rem(18);
   line-height: (30/22);
   font-weight: $fw-light;
+
+  @include media($medium-screen-up) {
+    font-size: rem(22);
+  }
 }

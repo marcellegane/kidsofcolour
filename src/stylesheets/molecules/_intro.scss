@@ -1,5 +1,14 @@
 .intro {
   text-align: center;
+  padding-bottom: $sp-s;
+
+  @include media($medium-screen-up) {
+    padding-bottom: $sp-m;
+  }
+
+  @include media($large-screen-up) {
+    padding-bottom: $sp-l;
+  }
 }
 
 .intro__logo {

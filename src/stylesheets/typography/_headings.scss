@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @mixin h3() {
   font-family: $ff-secondary;
-  font-size: rem(42);
+  font-size: rem(30);
   line-height: (53/42);
+
+  @include media($medium-screen-up) {
+    font-size: rem(42);
+  }
 }

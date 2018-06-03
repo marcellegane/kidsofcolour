@@ -1,3 +1,20 @@
-.about {
+.about__grid {
+  @include flex-grid;
+}
 
+.about__col {
+  @include flex-span(12);
+
+  @include media($medium-screen-up) {
+    @include flex-span(6);
+  }
+}
+
+.about__title {
+  @include h3;
+}
+
+.about__text {
+  margin-top: 1em;
+  @include body;
 }
