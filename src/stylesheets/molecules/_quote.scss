@@ -1,4 +1,7 @@
 .quote {
+  max-width: 52em;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
@@ -10,21 +13,18 @@
   }
 
   @include media($large-screen-up) {
-    font-size: rem(34);
+    font-size: rem(30);
   }
 }
 
 .quote__footer {
+  margin-top: 0.5em;
   font-family: $ff-secondary;
   font-size: rem(16);
   text-transform: uppercase;
   color: $yellow;
 
   @include media($medium-screen-up) {
-    font-size: rem(21);
-  }
-
-  @include media($large-screen-up) {
-    font-size: rem(28);
+    font-size: rem(24);
   }
 }
