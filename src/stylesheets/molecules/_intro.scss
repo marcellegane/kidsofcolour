@@ -19,6 +19,10 @@
   @include media($medium-screen-up) {
     margin-top: $sp-m;
   }
+
+  @include media($large-screen-up) {
+    margin-top: $sp-m + rem(15);
+  }
 }
 
 .intro__text {
@@ -31,6 +35,10 @@
   @include media($medium-screen-up) {
     margin-top: $sp-s;
   }
+
+  @include media($large-screen-up) {
+    margin-top: $sp-s + rem(15);
+  }
 }
 
 .intro__btn {
@@ -38,5 +46,9 @@
 
   @include media($medium-screen-up) {
     margin-top: $sp-s;
+  }
+
+  @include media($large-screen-up) {
+    margin-top: $sp-s + rem(15);
   }
 }
