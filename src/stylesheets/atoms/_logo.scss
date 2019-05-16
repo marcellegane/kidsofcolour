@@ -13,6 +13,7 @@
   @include media($medium-screen-up) {
     width: 34%;
     max-width: rem(350);
+    background-image: url('../images/logo-large.png');
   }
 
   &:before {
