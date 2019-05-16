@@ -3,19 +3,20 @@
   "description": "A platform for kids of colour to explore their experiences of race, identity and culture in modern Britain",
   "siteUrl": "http://kidsofcolour.com/",
   "socialImage": "http://kidsofcolour.com/images/social.png",
-
   "intro": {
-    "text": "A platform for kids of colour to explore their experiences of race, identity and culture in modern Britain",
+    "text": "A platform for young people of colour to explore race, identity and culture and challenge the everyday, institutionalised racism that shapes their lives",
     "cta": "Visit our channel"
   },
-
   "about": {
     "title1": "Why",
-    "text1": "We want to inform society on the diverse experiences belonging to young people of colour, humanizing them and challenging the narrative that makes them one-dimensional. We want to build a picture of how they are affected by race, identity and culture, making young people of colour everyday citizens in society’s eyes.",
+    "text1": "We want to inform society on the diverse experiences belonging to young people of colour, humanizing them and challenging the narrative that makes them one-dimensional. We want to build a picture of how they are affected by everyday, micro-aggressive and institutional racism.",
     "title2": "Who",
-    "text2": "Kids of Colour is led by Roxy Legane, who has worked in the youth and charity sector since 2013. She set up Kids of Colour in February 2018, tired of society’s ways of representing young people of colour homogenously; rarely sharing their individual experiences, interests or views."
+    "text2": "Kids of Colour is led by Roxy Legane, who has worked in the youth and charity sector since 2013. She set up Kids of Colour in 2018, tired of the way society represents young people of colour homogenously and its failure to recognise their experiences of racism."
   },
-
+  "pressure": {
+    "title": "Racism in Education: Pressure Group",
+    "text": "It has become clear to Kids of Colour that an independent pressure group must form in Greater Manchester. This is a platform for young people, parents or guardians to report incidents of overt, micro-aggressive or structural racism affecting young people in educational institutions. We want to build a picture in order to challenge, and where possible, offer support through our networks. You can remain anonymous."
+  },
   "quotes": [
     {
       "text": "Participating in Kids of Colour has empowered me and allowed me to have that difficult dialogue around race, culture and identity. It has also provided me with a channel to get my voice heard and my views around race heard by people from different communities.",
@@ -38,7 +39,6 @@
       "footer": "Fowsia, 24"
     }
   ],
-
   "contact": {
     "title": "Get Involved",
     "subtitle1": "Contribute",
@@ -48,7 +48,6 @@
     "btnHref": "mailto:kidsofcolour@hotmail.com",
     "btnText": "kidsofcolour@hotmail.com"
   },
-
   "social": {
     "youtube": "https://www.youtube.com/channel/UCcCZOh8AusathhNJUjIXHNQ",
     "twitter": "https://twitter.com/kidsofcolourhq",

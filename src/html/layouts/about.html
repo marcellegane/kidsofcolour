@@ -19,6 +19,18 @@
     </div>
   </div>
 
+  <section id="education" class="contact row row--yellow">
+    <div class="container">
+      <div class="contact__grid">
+        <div class="contact__col">
+          <h3 class="contact__subtitle">{{ pressure.title }}</h3>
+          <p class="contact__text">{{ pressure.text }}</p>
+          <a class="contact__btn btn btn--black" href="https://kidsofcolour.typeform.com/to/mEhujd">Share your story</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <div class="row row--light">
     <div class="container">
       <div class="about__grid">
@@ -26,10 +38,10 @@
 
           <div class="owl-carousel js-carousel">
             {% for quote in quotes %}
-              <blockquote class="quote">
-                <p class="quote__text">&ldquo;{{ quote.text }}&rdquo;</p>
-                <footer class="quote__footer">{{ quote.footer }}</footer>
-              </blockquote>
+            <blockquote class="quote">
+              <p class="quote__text">&ldquo;{{ quote.text }}&rdquo;</p>
+              <footer class="quote__footer">{{ quote.footer }}</footer>
+            </blockquote>
             {% endfor %}
           </div>
 
