@@ -1,28 +1,12 @@
 <section class="intro">
   <div class="container">
-    <h1 class="intro__logo logo"><span class="logo__text">{{ title }}</span></h1>
+    <div class="intro__wrapper">
+      <h1 class="intro__logo logo"><span class="logo__text">{{ title }}</span></h1>
 
-    <p class="intro__text">{{ intro.text }}</p>
+      <div class="intro__main">
+        <p class="intro__text">{{ intro.text }}</p>
 
-    <div id="watch" class="intro__section">
-      <a href="{{ social.youtube }}" class="intro__btn btn btn--black">{{ intro.cta }}</a>
-
-      <div class="video-wrapper">
-        <div class="video">
-          <div class="video__main js-video">
-            <a href="#" class="video__play js-video-btn" data-lity>Play</a>
-          </div>
-        </div>
-        <div class="video">
-          <div class="video__main js-video">
-            <a href="#" class="video__play js-video-btn" data-lity>Play</a>
-          </div>
-        </div>
-        <div class="video">
-          <div class="video__main js-video">
-            <a href="#" class="video__play js-video-btn" data-lity>Play</a>
-          </div>
-        </div>
+        <a href="{{ social.youtube }}" class="intro__btn btn btn--black">{{ intro.cta }}</a>
       </div>
     </div>
   </div>

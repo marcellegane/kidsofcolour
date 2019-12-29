@@ -12,15 +12,11 @@
 }
 
 .contact__title {
-  @include h2;
+  @include large;
 }
 
 .contact__subtitle {
-  @include h3;
-}
-
-.contact__text {
-  @include body;
+  @include large;
 }
 
 .contact__btn {

@@ -2,17 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 0.5em;
-
-  @include media($medium-screen-up) {
-    margin-top: 1em;
-  }
 }
 
 .social__link {
   position: relative;
   display: block;
-  width: 100%;
+  width: rem(40);
   overflow: hidden;
   background: {
     repeat: no-repeat;
@@ -20,6 +15,10 @@
     size: contain;
   }
   transition: all 0.2s ease;
+
+  @include media($medium-screen-up) {
+    width: rem(46);
+  }
 
   &:hover,
   &:active,
@@ -29,49 +28,26 @@
   }
 
   &--youtube {
-    width: rem(33);
     background-image: url('../images/icon-youtube.svg');
-
-    @include media($medium-screen-up) {
-      width: rem(43);
-    }
-
-    &:before {
-      padding-bottom: percentage(30/43);
-    }
   }
 
   &--twitter {
-    width: rem(20);
     background-image: url('../images/icon-twitter.svg');
-
-    @include media($medium-screen-up) {
-      width: rem(30);
-    }
-
-    &:before {
-      padding-bottom: percentage(25/30);
-    }
   }
 
   &--instagram {
-    width: rem(18);
     background-image: url('../images/icon-instagram.svg');
+  }
 
-    @include media($medium-screen-up) {
-      width: rem(28);
-    }
-
-    &:before {
-      padding-bottom: percentage(29/28);
-    }
+  &--facebook {
+    background-image: url('../images/icon-facebook.svg');
   }
 
   + #{&} {
     margin-left: $sp-s * 0.375;
 
     @include media($medium-screen-up) {
-      margin-left: $sp-s * 0.75;
+      margin-left: $sp-s * 0.3;
     }
   }
 
@@ -80,6 +56,7 @@
     display: block;
     width: 100%;
     height: 0;
+    padding-bottom: 100%;
   }
 }
 

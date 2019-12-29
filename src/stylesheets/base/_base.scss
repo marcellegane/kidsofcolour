@@ -5,14 +5,7 @@
   margin: 0;
 }
 
-html {
-  -webkit-font-smoothing: antialiased;
-}
-
-body {
-  background-color: $yellow;
-}
-
 a {
+  font-weight: $fw-bold;
   color: $body-text;
 }

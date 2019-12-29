@@ -1,6 +1,6 @@
 .row {
-  padding-top: $sp-s;
-  padding-bottom: $sp-s;
+  padding-top: $sp-m;
+  padding-bottom: $sp-m;
 
   @include media($medium-screen-up) {
     padding-top: $sp-m;

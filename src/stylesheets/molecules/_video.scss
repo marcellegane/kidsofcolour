@@ -1,5 +1,14 @@
-.video-wrapper {
-  margin-top: $sp-m / 2;
+.video-container {
+  padding-top: $sp-s;
+  padding-bottom: $sp-s;
+
+  @include media($medium-screen-up) {
+    padding-top: $sp-m;
+    padding-bottom: $sp-m;
+  }
+}
+
+.video-grid {
   @include flex-grid($justify: center);
 
   @include media($medium-screen-up) {

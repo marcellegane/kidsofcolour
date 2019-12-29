@@ -3,10 +3,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $fw-regular;
 }
 
-@mixin h2() {
+@mixin large() {
   font-family: $ff-secondary;
   font-size: rem(38);
-  line-height: (80/64);
+  line-height: 1;
 
   @include media($medium-screen-up) {
     font-size: rem(48);
@@ -17,13 +17,21 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@mixin h3() {
+@mixin medium() {
   font-family: $ff-secondary;
   font-size: rem(30);
-  line-height: (53/42);
-  text-transform: lowercase;
+  line-height: 1;
+  text-transform: none;
 
   @include media($medium-screen-up) {
     font-size: rem(42);
   }
+}
+
+.text-large {
+  @include large;
+}
+
+.text-medium {
+  @include medium;
 }

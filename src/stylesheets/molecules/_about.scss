@@ -15,10 +15,9 @@
 }
 
 .about__title {
-  @include h3;
+  @include medium;
 }
 
-.about__text {
-  margin-top: 1em;
-  @include body;
+.about__link {
+  color: $white;
 }

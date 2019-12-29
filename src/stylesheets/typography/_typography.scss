@@ -1,11 +1,17 @@
-body {
-  font-size: 1rem;
-  line-height: 1.5;
+@mixin body() {
   font-family: $ff-primary;
-  color: $body-text;
+  font-size: rem(18);
+  line-height: (30/22);
+  font-weight: $fw-light;
+  background-color: $yellow;
+
+  @include media($medium-screen-up) {
+    font-size: rem(22);
+  }
 }
 
 @mixin body-large() {
+  font-family: $ff-primary;
   font-size: rem(24);
   line-height: (42/34);
   font-weight: $fw-light;
@@ -15,12 +21,17 @@ body {
   }
 }
 
-@mixin body() {
-  font-size: rem(18);
-  line-height: (30/22);
-  font-weight: $fw-light;
+body {
+  @include body;
+  color: $body-text;
+}
 
-  @include media($medium-screen-up) {
-    font-size: rem(22);
+p + p {
+  margin-top: 1em;
+}
+
+.stack {
+  > * + * {
+    margin-top: 1em;
   }
 }

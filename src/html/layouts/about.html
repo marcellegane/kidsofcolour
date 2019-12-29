@@ -1,51 +1,18 @@
-<section id="about" class="about">
-  <div class="row row--dark">
-    <div class="container">
-
-      <div class="about__grid">
-
-        <div class="about__col">
-          <h3 class="about__title">{{ about.title1 }}</h3>
-          <p class="about__text">{{ about.text1 }}</p>
-        </div>
-
-        <div class="about__col">
-          <h3 class="about__title">{{ about.title2 }}</h3>
-          <p class="about__text">{{ about.text2 }}</p>
-        </div>
-
-      </div>
-
-    </div>
-  </div>
-
-  <section id="education" class="contact row row--yellow">
-    <div class="container">
-      <div class="contact__grid">
-        <div class="contact__col">
-          <h3 class="contact__subtitle">{{ pressure.title }}</h3>
-          <p class="contact__text">{{ pressure.text }}</p>
-          <a class="contact__btn btn btn--black" href="https://kidsofcolour.typeform.com/to/mEhujd">Share your story</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <div class="row row--light">
-    <div class="container">
-      <div class="about__grid">
-        <div class="about__carousel">
-
-          <div class="owl-carousel js-carousel">
-            {% for quote in quotes %}
-            <blockquote class="quote">
-              <p class="quote__text">&ldquo;{{ quote.text }}&rdquo;</p>
-              <footer class="quote__footer">{{ quote.footer }}</footer>
-            </blockquote>
-            {% endfor %}
-          </div>
-
-        </div>
+<section id="about" class="contact row row--dark">
+  <div class="container">
+    <div class="contact__grid">
+      <div class="contact__col stack">
+        <h2 class="contact__subtitle">About</h2>
+        <p class="contact__text">Kids of Colour was founded in 2018 and became a community interest company in 2019. We
+          work to inform society on the diverse experiences belonging to young people of colour and
+          challenge the racialised, dehumanising narratives that uphold negative stereotypes. We create
+          spaces for young people of colour to come together and explore race, identity and culture and
+          support them to challenge the racism they face.</p>
+        <p class="contact__text">We also create opportunities for the public to learn from young people, encouraging
+          young
+          and adult allies to reflect on the individual and systemic changes needed in society that they must
+          be a part of implementing. Keep an eye on our social media for upcoming events and
+          workshops.</p>
       </div>
     </div>
   </div>
