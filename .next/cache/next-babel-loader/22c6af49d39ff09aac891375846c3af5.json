@@ -1,0 +1,1 @@
+{"ast":null,"code":"export * from './IconBin';\nexport * from './IconPlus';","map":{"version":3,"sources":["/Users/marcellegane/dev/kidsofcolour/Luna/svgs/icons/index.js"],"names":[],"mappings":"AAAA,cAAc,WAAd;AACA,cAAc,YAAd","sourcesContent":["export * from './IconBin'\nexport * from './IconPlus'\n"]},"metadata":{},"sourceType":"module"}

@@ -1,1 +1,13 @@
-Static site for Kids of Color.
+# Luna
+
+## Installation
+
+```
+npm install
+```
+
+## Development
+
+```
+npm run dev
+```

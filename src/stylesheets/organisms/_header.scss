@@ -1,9 +1,0 @@
-.header {
-  padding-top: $sp-s;
-  padding-bottom: $sp-s;
-
-  @include media($medium-screen-up) {
-    padding-top: $sp-m;
-    padding-bottom: $sp-m;
-  }
-}
