@@ -1,5 +1,6 @@
 const family = {
-  brand: 'Helvetica Neue, sans-serif',
+  primary: 'Source Sans Pro, sans-serif',
+  secondary: 'A Love of Thunder, sans-serif',
 }
 
 const weight = {

@@ -47,7 +47,7 @@ const ThisStyleGuide = ({ children }) => (
         <div>
           <Medium># XXXLarge</Medium>
           <XXXLarge>
-            {Luna.font.family.brand}, {Luna.font.weight.normal},{' '}
+            {Luna.font.family.primary}, {Luna.font.weight.normal},{' '}
             {Luna.TextStyles.xxxlarge.size} /{' '}
             {Luna.TextStyles.xxxlarge.lineHeight}
           </XXXLarge>
@@ -55,7 +55,7 @@ const ThisStyleGuide = ({ children }) => (
         <div>
           <Medium># XXLarge</Medium>
           <XXLarge>
-            {Luna.font.family.brand}, {Luna.font.weight.normal},{' '}
+            {Luna.font.family.primary}, {Luna.font.weight.normal},{' '}
             {Luna.TextStyles.xxlarge.size} /{' '}
             {Luna.TextStyles.xxlarge.lineHeight}
           </XXLarge>
@@ -63,28 +63,28 @@ const ThisStyleGuide = ({ children }) => (
         <div>
           <Medium># XLarge</Medium>
           <XLarge>
-            {Luna.font.family.brand}, {Luna.font.weight.normal},{' '}
+            {Luna.font.family.primary}, {Luna.font.weight.normal},{' '}
             {Luna.TextStyles.xlarge.size} / {Luna.TextStyles.xlarge.lineHeight}
           </XLarge>
         </div>
         <div>
           <Medium># Large</Medium>
           <Large>
-            {Luna.font.family.brand}, {Luna.font.weight.normal},{' '}
+            {Luna.font.family.primary}, {Luna.font.weight.normal},{' '}
             {Luna.TextStyles.large.size} / {Luna.TextStyles.large.lineHeight}
           </Large>
         </div>
         <div>
           <Medium># Medium</Medium>
           <Medium>
-            {Luna.font.family.brand}, {Luna.font.weight.normal},{' '}
+            {Luna.font.family.primary}, {Luna.font.weight.normal},{' '}
             {Luna.TextStyles.medium.size} / {Luna.TextStyles.medium.lineHeight}
           </Medium>
         </div>
         <div>
           <Small># Small</Small>
           <Small>
-            {Luna.font.family.brand}, {Luna.font.weight.normal},{' '}
+            {Luna.font.family.primary}, {Luna.font.weight.normal},{' '}
             {Luna.TextStyles.small.size} / {Luna.TextStyles.small.lineHeight}
           </Small>
         </div>

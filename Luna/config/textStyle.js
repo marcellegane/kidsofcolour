@@ -30,42 +30,42 @@ const TextStyles = {
 }
 
 const XXXLarge = css`
-  font-family: ${Font.family.brand};
+  font-family: ${Font.family.primary};
   font-weight: ${Font.weight.medium};
   font-size: ${pxToRem(TextStyles.xxxlarge.size)};
   line-height: ${TextStyles.xxxlarge.lineHeight / TextStyles.xxxlarge.size};
 `
 
 const XXLarge = css`
-  font-family: ${Font.family.brand};
+  font-family: ${Font.family.primary};
   font-weight: ${Font.weight.normal};
   font-size: ${pxToRem(TextStyles.xxlarge.size)};
   line-height: ${TextStyles.xxlarge.lineHeight / TextStyles.xxlarge.size};
 `
 
 const XLarge = css`
-  font-family: ${Font.family.brand};
+  font-family: ${Font.family.primary};
   font-weight: ${Font.weight.normal};
   font-size: ${pxToRem(TextStyles.xlarge.size)};
   line-height: ${TextStyles.xlarge.lineHeight / TextStyles.xlarge.size};
 `
 
 const Large = css`
-  font-family: ${Font.family.brand};
+  font-family: ${Font.family.primary};
   font-weight: ${Font.weight.normal};
   font-size: ${pxToRem(TextStyles.large.size)};
   line-height: ${TextStyles.large.lineHeight / TextStyles.large.size};
 `
 
 const Medium = css`
-  font-family: ${Font.family.brand};
+  font-family: ${Font.family.primary};
   font-weight: ${Font.weight.normal};
   font-size: ${pxToRem(TextStyles.medium.size)};
   line-height: ${TextStyles.medium.lineHeight / TextStyles.medium.size};
 `
 
 const Small = css`
-  font-family: ${Font.family.brand};
+  font-family: ${Font.family.primary};
   font-weight: ${Font.weight.normal};
   font-size: ${pxToRem(TextStyles.small.size)};
   line-height: ${TextStyles.small.lineHeight / TextStyles.small.size};
