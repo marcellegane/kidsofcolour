@@ -17,6 +17,7 @@
 }
 
 .video {
+  display: block;
   @include flex-span(12);
 
   @include media($small-screen-up) {
@@ -50,7 +51,7 @@
   }
 
   &:before {
-    content: '';
+    content: "";
     display: block;
     width: 100%;
     height: 0;
@@ -70,7 +71,7 @@
   white-space: nowrap;
   text-indent: 100%;
   background: {
-    image: url('../images/play.svg');
+    image: url("../images/play.svg");
     repeat: no-repeat;
     position: center;
     size: contain;
@@ -85,9 +86,9 @@
     width: rem(90);
   }
 
-  &:hover,
-  &:active,
-  &:focus {
+  .video:hover &,
+  .video:active &,
+  .video:focus & {
     transform: translate(-50%, -50%) scale(1.08);
   }
 }
