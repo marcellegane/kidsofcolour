@@ -1,8 +1,8 @@
 const Color = {
   primary: {
-    base: '#003149',
+    base: '#F2BF28',
     dark: '#001F2E',
-    light: '#6A8897',
+    light: '#F6EDD0',
     lightest: '#D9E0E4',
   },
   secondary: {
@@ -26,7 +26,7 @@ const Color = {
     background: '#A33B4C',
   },
   light: '#FFFFFF',
-  dark: '#111111',
+  dark: '#1E1E1E',
 }
 
 export { Color }
